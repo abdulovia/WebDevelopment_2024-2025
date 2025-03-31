@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Blog - Page 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        nav {
+            background: #f0f0f0;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My First Blog Post</h1>
+    <p>This is the content of my first blog post.</p>
+
+    <p>Интерактивная карта центральных районов Санкт-Петербурга.</p>
+    
+    <p>Можно кликнуть на Исакиевский собор, Петропавловскую крепость, Спас на Крови, Казанский собор и Александровскую колонну</p>
+
+    <map name="map0">
+        <area shape="rect" coords="10, 145, 100, 240" href="https://www.cathedral.ru/ru">
+        <area shape="rect" coords="320, 150, 355, 215" href="https://спас-на-крови.рф/">
+        <area shape="poly" coords="198, 300, 200, 270, 225, 250, 270, 280, 250, 307, 210, 313" href="http://kazansky-spb.ru/">
+        <area shape="circle" coords="190, 165, 40" href="https://www.advantour.com/rus/russia/saint-petersburg/attractions/alexander-column.htm">
+        <area shape="rect" coords="180, 40, 295, 90" href="https://www.spbmuseum.ru/themuseum/museum_complex/peterpaul_fortress/?SHOWALL_1=1">
+    </map>
+    <img src="image.png" border="0" width="499" height="512" usemap="#map0">
+
+    <p><a href="index.html">← Back to Home</a></p>
+
+</body>
+
+</html>
